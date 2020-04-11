@@ -1,8 +1,4 @@
 A simple project purely in advaced css, just for jog my memory after a backend background.
 
-/***
- *     _  _ ____ __    ___ __  _  _ ____    ____  __   ___ __ _     ___ ____ ____ 
- *    / )( (  __(  )  / __/  \( \/ (  __)  (  _ \/ _\ / __(  / )   / __/ ___/ ___)
- *    \ /\ /) _)/ (_/( (_(  O / \/ \) _)    ) _ /    ( (__ )  (   ( (__\___ \___ \
- *    (_/\_(____\____/\___\__/\_)(_(____)  (____\_/\_/\___(__\_)   \___(____(____/
- */
+![HtmlCss Logo](/img/html-css_big.png)
+Format: ![Alt Text](url)
