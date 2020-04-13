@@ -1,0 +1,32 @@
+body {
+    color: $color-grey-dark;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    padding: 3rem;
+}
+
+.heading-primary {
+    /* it removes shaking from the animation */
+    backface-visibility: hidden;
+    color: $color-white;
+    margin-bottom: 6rem;
+    text-transform: uppercase;
+
+    &--top {
+        animation: moveLeft 1s ease-out;
+        display: block;
+        font-size: 6rem;
+        font-weight: 400;
+        letter-spacing: 3.5rem;
+    }
+    
+    &--bottom {
+        animation: moveRight 1s ease-out;
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 1.7rem;
+    }
+}
