@@ -9,6 +9,18 @@
 html {
     /* 10px previously px / 16px in body = 1 rem*/
     font-size: 62.5%;
+
+    @include responde(tab-land) {
+        font-size: 56.25%; //1 rem = 9px; 9/16 = 56%
+    }
+
+    @include responde(tab-port) {
+        font-size: 50%; //1 rem = 8px; 8/16 = 50%
+    }
+
+    @include responde(big-desktop) {
+        font-size: 75%;
+    }
 }
 
 body {
