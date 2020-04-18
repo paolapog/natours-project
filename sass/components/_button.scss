@@ -16,6 +16,11 @@
     //change fot the <button> element
     border: none;
     cursor: pointer;
+
+    @include respond(phone) {
+        font-size: 1rem;
+        padding: .7rem 2rem;
+    }
     }
 
     &:hover {
