@@ -7,6 +7,7 @@
     position: relative;
 
     &__side{
+        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
         border-radius: 3px;
         height: 52rem;
@@ -157,7 +158,12 @@
 
 
 
-    @include respond(tab-port) {
+    //@include respond(tab-port) {
+    /*
+    if we use mixin, cards on tablet will always be 
+    like in the desktop mode. So, we must only use the media query itself with hover none
+    */
+    @media only screen and (max-width: 56.25em), only screen and (hover: none){
         background-color: $color-white;
         border-radius: 3px;
         box-shadow: $default-box-shadow;
